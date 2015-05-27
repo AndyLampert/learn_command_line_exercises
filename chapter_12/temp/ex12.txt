@@ -1,0 +1,128 @@
+I am using jquery easing plugin, I want to apply the easing "easeInOutBounce" to a div rotation, but not like in this example (where, basing on 90, the rotation will be between 0 and 90):
+
+num = 90;
+$('div').animate({borderSpacing: num},{
+    step: function(now){
+        if(now >= num/2){xxx = num - now;}else{xxx = now;}
+        console.log(xxx);
+        $(this).css('transform','rotate('+ xxx +'deg)');
+    },
+    duration: 1000,
+    easing: 'easeInOutBounce'
+},'linear');
+I want to do the rotation not starting by 0, but converting partial of the value in negative numbers, so the animation is balanced to 0:
+in this case basing on 90, I want the animation between -45 and 45.
+
+I made a bad calculation and I can't achieve the result I want... please help with a proper math calculation, any help is much appreciated!
+
+javascript math negative-number
+shareeditflag
+asked 5 mins ago
+
+neoDev
+577216
+add a comment
+1 Answer
+activeoldestvotes
+up vote
+0
+down vote
+Simply try now = now - num/2; instead of your if... statement.
+
+This corresponds to the mapping now |--> now - 90/2 which has a range of [-45,45] when now has a domain of [0,90].
+I am using jquery easing plugin, I want to apply the easing "easeInOutBounce" to a div rotation, but not like in this example (where, basing on 90, the rotation will be between 0 and 90):
+
+num = 90;
+$('div').animate({borderSpacing: num},{
+    step: function(now){
+        if(now >= num/2){xxx = num - now;}else{xxx = now;}
+        console.log(xxx);
+        $(this).css('transform','rotate('+ xxx +'deg)');
+    },
+    duration: 1000,
+    easing: 'easeInOutBounce'
+},'linear');
+I want to do the rotation not starting by 0, but converting partial of the value in negative numbers, so the animation is balanced to 0:
+in this case basing on 90, I want the animation between -45 and 45.
+
+I made a bad calculation and I can't achieve the result I want... please help with a proper math calculation, any help is much appreciated!
+
+javascript math negative-number
+shareeditflag
+asked 5 mins ago
+
+neoDev
+577216
+add a comment
+1 Answer
+activeoldestvotes
+up vote
+0
+down vote
+Simply try now = now - num/2; instead of your if... statement.
+
+This corresponds to the mapping now |--> now - 90/2 which has a range of [-45,45] when now has a domain of [0,90].
+I am using jquery easing plugin, I want to apply the easing "easeInOutBounce" to a div rotation, but not like in this example (where, basing on 90, the rotation will be between 0 and 90):
+
+num = 90;
+$('div').animate({borderSpacing: num},{
+    step: function(now){
+        if(now >= num/2){xxx = num - now;}else{xxx = now;}
+        console.log(xxx);
+        $(this).css('transform','rotate('+ xxx +'deg)');
+    },
+    duration: 1000,
+    easing: 'easeInOutBounce'
+},'linear');
+I want to do the rotation not starting by 0, but converting partial of the value in negative numbers, so the animation is balanced to 0:
+in this case basing on 90, I want the animation between -45 and 45.
+
+I made a bad calculation and I can't achieve the result I want... please help with a proper math calculation, any help is much appreciated!
+
+javascript math negative-number
+shareeditflag
+asked 5 mins ago
+
+neoDev
+577216
+add a comment
+1 Answer
+activeoldestvotes
+up vote
+0
+down vote
+Simply try now = now - num/2; instead of your if... statement.
+
+This corresponds to the mapping now |--> now - 90/2 which has a range of [-45,45] when now has a domain of [0,90].
+I am using jquery easing plugin, I want to apply the easing "easeInOutBounce" to a div rotation, but not like in this example (where, basing on 90, the rotation will be between 0 and 90):
+
+num = 90;
+$('div').animate({borderSpacing: num},{
+    step: function(now){
+        if(now >= num/2){xxx = num - now;}else{xxx = now;}
+        console.log(xxx);
+        $(this).css('transform','rotate('+ xxx +'deg)');
+    },
+    duration: 1000,
+    easing: 'easeInOutBounce'
+},'linear');
+I want to do the rotation not starting by 0, but converting partial of the value in negative numbers, so the animation is balanced to 0:
+in this case basing on 90, I want the animation between -45 and 45.
+
+I made a bad calculation and I can't achieve the result I want... please help with a proper math calculation, any help is much appreciated!
+
+javascript math negative-number
+shareeditflag
+asked 5 mins ago
+
+neoDev
+577216
+add a comment
+1 Answer
+activeoldestvotes
+up vote
+0
+down vote
+Simply try now = now - num/2; instead of your if... statement.
+
+This corresponds to the mapping now |--> now - 90/2 which has a range of [-45,45] when now has a domain of [0,90].

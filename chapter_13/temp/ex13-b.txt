@@ -1,0 +1,5 @@
+Andy@Andys-MacBook-Pro:~/www/davinci/davinci_coders_t2_2015/homework/learn_command_line_exercises/chapter_13/temp(master⚡) » touch ex13-b.txt
+Andy@Andys-MacBook-Pro:~/www/davinci/davinci_coders_t2_2015/homework/learn_command_line_exercises/chapter_13/temp(master⚡) » touch ex13-c.txt
+Andy@Andys-MacBook-Pro:~/www/davinci/davinci_coders_t2_2015/homework/learn_command_line_exercises/chapter_13/temp(master⚡) » touch ex13-d.txt
+Andy@Andys-MacBook-Pro:~/www/davinci/davinci_coders_t2_2015/homework/learn_command_line_exercises/chapter_13/temp(master⚡) » open ex13-b.txt
+Andy@Andys-MacBook-Pro:~/www/davinci/davinci_coders_t2_2015/homework/learn_command_line_exercises/chapter_13/temp(master⚡) »
