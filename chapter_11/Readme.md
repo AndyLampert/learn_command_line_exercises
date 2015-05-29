@@ -1,3 +1,3 @@
-1. type `mv foo.txt blah.txt`
-2. `cd log` to move into the log directory and then type `production.log ~/tmp`
-3. type `mv thatfile.extension anotherfile.extension`
+1. I would type `mv foo.txt blah.txt`.
+2. I would `cd log` to move into the log directory and then type `mv production.log ~/temp`
+3. I would type `mv thatfile anotherfile`

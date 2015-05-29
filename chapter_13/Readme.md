@@ -1,2 +1,2 @@
-1. type `less database.yml`
-2. type `cat Gemfile`
+1. I would type `cat database.yml`
+2. I would type `cat Gemfile`

@@ -1,2 +1,2 @@
-1. type `mkdir temp` 
-2. type `pwd` to see if you're in the class directory. If not, `cd` into it, then `mkdir log` when you're there
+1. I would type `mkdir temp` 
+2. I would type `pwd` to see if I'm in the class directory. If I'm not, then I'd`cd` into it, then type `mkdir log`.

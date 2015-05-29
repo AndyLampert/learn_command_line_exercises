@@ -5,3 +5,5 @@
  3. Open finder and open the file 
  4. type `cp -r something/ new_folder/` to make sure they are actually files
  
+1. I would type `cp foo.txt ~/temp`
+2. I would type `cp ~/.bash_profile .`
