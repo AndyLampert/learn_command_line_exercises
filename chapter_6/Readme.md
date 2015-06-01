@@ -1,7 +1,16 @@
-`ls -lR` lists directories recursively 
+## Story Questions
 
-1. I'd type `cd tmp`, then `ls -l` and look at the files.
-2. I'd type type `ls -lR`
-3. I'd type `cd ~/`, then `ls`
-4. I'd type `cd /temp`, then `ls`
+**What's in the tmp directory?**
+> I'd type `cd ~/tmp` and take a look or type `ls tmp/`.
 
+**Can you show me what files are in that directory?**
+> I'd type `ls`.
+
+**What files are in your home directory?**
+> I'd type `ls ~/`.
+
+**What's in slash temp?**
+> I'd type `ls /tmp`.
+
+**Describe what ls -lR does in the Readme.md (Do More section)**
+> `ls -lR` lists files directories recursively.
