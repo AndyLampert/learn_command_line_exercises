@@ -1,29 +1,29 @@
 ## Story Questions
 
 **Can you cd into the temp directory?**
-> I'd type `cd temp`.
+> I'd type `cd tmp`.
 
 **Why don't we go into the temp directory?**
-> I'd type `cd temp`.
+> I'd type `cd tmp`.
 
 **Can you go to the slash temp directory?**
-> I'd type `cd ~/temp`.
+> I'd type `cd ~/tmp`.
 
 **Can you go to the slash temp slash log directory?**
-> I'd type `cd ~/temp/log`.
+> I'd type `cd ~/tmp/log`.
 
 **What does the .. argument to cd do?  Explain it in the Readme.md.**
 > The `cd ..` argument takes you one folder above your current place.
 
 ## Do More
 **cd to the joe directory with one command.**
-> I'd type `cd joe`.
+> I'd type `cd ~/tmp/joe`.
 
 **cd back to temp with one command, but not further above that.**
-I'm assuming the temp directory is one level above us in this example
-> I'd type `cd ../temp`.
+Now that I'm in the joe directory I would get back into temp by tying: `cd ..`
+> I'd type `cd ../tmp`.
 
-If Zed means the temp folder in the root, I'd type `cd ~/temp`.
+If Zed means the temp folder in the root, I'd type `cd ~/tmp`.
 
 **Find out how to cd to your "home directory" with one command.**
 > I'd type `cd ~/`
